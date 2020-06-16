@@ -41,7 +41,7 @@ AR Path="/5F171CDB/604B8E90" Ref="Q?"  Part="1"
 AR Path="/604ADF19/604B8E90" Ref="Q202"  Part="1" 
 F 0 "Q202" H 4841 3946 50  0000 L CNN
 F 1 "2N3904" H 4841 3855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4850 3825 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 3825 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4650 3900 50  0001 L CNN
 	1    4650 3900
 	-1   0    0    -1  
@@ -290,7 +290,7 @@ AR Path="/5F171CDB/604B8F17" Ref="Q?"  Part="1"
 AR Path="/604ADF19/604B8F17" Ref="Q201"  Part="1" 
 F 0 "Q201" H 4441 4446 50  0000 L CNN
 F 1 "2N3904" H 4441 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4450 4325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4450 4325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4250 4400 50  0001 L CNN
 	1    4250 4400
 	-1   0    0    -1  

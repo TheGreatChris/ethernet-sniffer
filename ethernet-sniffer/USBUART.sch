@@ -160,7 +160,7 @@ AR Path="/604CDAD5" Ref="Y?"  Part="1"
 AR Path="/604C325D/604CDAD5" Ref="Y501"  Part="1" 
 F 0 "Y501" V 2054 2938 50  0000 L CNN
 F 1 "12MHz" V 2145 2938 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering" H 2100 2850 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 2100 2850 50  0001 C CNN
 F 3 "~" H 2100 2850 50  0001 C CNN
 	1    2100 2850
 	0    1    1    0   
