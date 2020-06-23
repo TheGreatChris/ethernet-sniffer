@@ -1,0 +1,82 @@
+06-08 21:41:17 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+06-08 21:41:17 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+06-08 21:41:17 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6)-1
+06-08 21:41:17 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+06-08 21:41:17 replicate_layout.action_replicate_layout 340:Preparing replicator with J901 as a reference
+06-08 21:41:17 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+06-08 21:41:17 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'60ED6DF1': ['PHY2', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\PHY_fixed.sch'], '5F171CDB': ['FPGA', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\FPGA.sch'], '5F9F3D30': ['PHY3', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\PHY_fixed.sch'], '604B8EA0': ['Digit 2', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\7segment.sch'], '604B8E8A': ['Digit 1', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\7segment.sch'], '60ED640E': ['PHY1', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\PHY_fixed.sch'], '605E5A58': ['STM32', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\stm32.sch'], '604C325D': ['USB-UART', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\USBUART.sch'], '604ADF19': ['7seg-display', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\7seg-display.sch'], '5EEFA495': ['100BASETX-PHY 1', u'C:\\Users\\chris\\Documents\\KiCad\\ethernet-sniffer\\PHY_fixed.sch']}
+06-08 21:41:17 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+06-08 21:41:17 replicate_layout.action_replicate_layout 367:source anchor footprint is u'J901'
+Located on:['PHY1']
+With filenames:[u'PHY_fixed.sch']
+With sheet_id:['PHY1']
+06-08 21:41:17 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'J801', ['100BASETX-PHY 1']), (u'J1101', ['PHY3']), (u'J901', ['PHY1']), (u'J1001', ['PHY2'])]
+06-08 21:41:17 replicate_layout.action_replicate_layout 384:Showing dialog
+06-08 21:41:17 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(85, -9)
+06-08 21:41:17 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+06-08 21:41:17 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1687, 126)
+06-08 21:41:17 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1374, 126)
+06-08 21:41:21 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PHY1', file:u'PHY_fixed.sch'
+06-08 21:41:21 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PHY1']
+06-08 21:41:21 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'J801', u'J1101', u'J901', u'J1001']
+06-08 21:41:21 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5EEFA495/5EF19625', u'/5F9F3D30/5EF19625', u'/60ED640E/5EF19625', u'/60ED6DF1/5EF19625']
+06-08 21:41:21 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['100BASETX-PHY 1'], ['PHY3'], ['PHY1'], ['PHY2']]
+06-08 21:41:21 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['100BASETX-PHY 1'], ['PHY1'], ['PHY2'], ['PHY3']]
+06-08 21:41:21 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['100BASETX-PHY 1'], ['PHY2'], ['PHY3']]
+06-08 21:41:26 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PHY1', file:u'PHY_fixed.sch'
+06-08 21:41:26 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PHY1']
+06-08 21:41:26 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'J801', u'J1101', u'J901', u'J1001']
+06-08 21:41:26 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5EEFA495/5EF19625', u'/5F9F3D30/5EF19625', u'/60ED640E/5EF19625', u'/60ED6DF1/5EF19625']
+06-08 21:41:26 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['100BASETX-PHY 1'], ['PHY3'], ['PHY1'], ['PHY2']]
+06-08 21:41:26 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['100BASETX-PHY 1'], ['PHY1'], ['PHY2'], ['PHY3']]
+06-08 21:41:26 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['100BASETX-PHY 1'], ['PHY2'], ['PHY3']]
+06-08 21:41:26 replicate_layout.action_replicate_layout 179:Replicating layout
+06-08 21:41:26 replicate_layout.replicatelayout 986:Starting replication of sheets: [['100BASETX-PHY 1']]
+on level: ['PHY1']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+06-08 21:41:26 root 261:updating GUI message: 'Preparing for replication'
+06-08 21:41:26 root 266:updating GUI with: 0
+06-08 21:41:26 replicate_layout.replicatelayout 552:Getting the list of source footprints
+06-08 21:41:26 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+06-08 21:41:26 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+06-08 21:41:26 replicate_layout.replicatelayout 564:Getting source bounding box
+06-08 21:41:26 root 266:updating GUI with: 37
+06-08 21:41:26 replicate_layout.replicatelayout 568:Getting source tracks
+06-08 21:41:26 replicate_layout.replicatelayout 572:Getting source zones
+06-08 21:41:26 root 266:updating GUI with: 62
+06-08 21:41:26 replicate_layout.replicatelayout 576:Getting source text items
+06-08 21:41:26 replicate_layout.replicatelayout 580:Getting source text items
+06-08 21:41:26 root 266:updating GUI with: 100
+06-08 21:41:26 root 261:updating GUI message: 'Replicating footprints'
+06-08 21:41:26 replicate_layout.replicatelayout 586:Replicating footprints
+06-08 21:41:26 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['100BASETX-PHY 1']
+06-08 21:41:26 root 266:updating GUI with: 34
+06-08 21:41:26 root 266:updating GUI with: 93
+06-08 21:41:26 root 261:updating GUI message: 'Replicating tracks'
+06-08 21:41:26 replicate_layout.replicatelayout 712:Replicating tracks
+06-08 21:41:26 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['100BASETX-PHY 1']
+06-08 21:41:26 root 266:updating GUI with: 0
+06-08 21:41:26 root 266:updating GUI with: 0
+06-08 21:41:26 root 261:updating GUI message: 'Replicating zones'
+06-08 21:41:26 replicate_layout.replicatelayout 763:Replicating zones
+06-08 21:41:26 replicate_layout.replicatelayout 770:Replicating zones on sheet ['100BASETX-PHY 1']
+06-08 21:41:27 root 266:updating GUI with: 100
+06-08 21:41:27 root 261:updating GUI message: 'Replicating text'
+06-08 21:41:27 replicate_layout.replicatelayout 829:Replicating text
+06-08 21:41:27 replicate_layout.replicatelayout 836:Replicating text on sheet ['100BASETX-PHY 1']
+06-08 21:41:27 root 261:updating GUI message: 'Replicating drawings'
+06-08 21:41:27 replicate_layout.replicatelayout 860:Replicating drawings
+06-08 21:41:27 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['100BASETX-PHY 1']
+06-08 21:41:27 replicate_layout.action_replicate_layout 201:Replication complete

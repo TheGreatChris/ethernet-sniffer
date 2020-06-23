@@ -1089,22 +1089,6 @@ Wire Notes Line
 	2850 2500 1750 2500
 Text Notes 1750 2500 0    50   ~ 0
 I2C
-Wire Wire Line
-	6900 4950 6900 5550
-Wire Wire Line
-	7000 4950 7000 5550
-Wire Wire Line
-	7100 4950 7100 5550
-Wire Wire Line
-	7200 4950 7200 5550
-Wire Wire Line
-	7300 4950 7300 5550
-Wire Wire Line
-	7400 4950 7400 5550
-Wire Wire Line
-	7500 4950 7500 5550
-Wire Wire Line
-	7600 4950 7600 5550
 Text Label 1150 3450 2    50   ~ 0
 ETH_TXD0
 $Comp
@@ -1386,4 +1370,14 @@ NoConn ~ 8100 4950
 NoConn ~ 8200 4950
 NoConn ~ 8300 4950
 NoConn ~ 8400 4950
+Text HLabel 4650 4050 0    50   UnSpc ~ 0
+STM_3V3
+NoConn ~ 6900 4950
+NoConn ~ 7000 4950
+NoConn ~ 7100 4950
+NoConn ~ 7200 4950
+NoConn ~ 7300 4950
+NoConn ~ 7400 4950
+NoConn ~ 7500 4950
+NoConn ~ 7600 4950
 $EndSCHEMATC
